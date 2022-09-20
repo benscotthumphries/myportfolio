@@ -41,7 +41,7 @@ const NameLogo: React.FunctionComponent<NameLogoProps> = (props) => {
           borderRadius: bgBorder,
           display: 'flex',
           height: 30,
-          width: 30,
+          width: 135,
         }}
       />
       <p

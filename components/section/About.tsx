@@ -26,7 +26,7 @@ import TwitterIconLink from 'components/common/TwitterIconLink';
 import ContainerGrid from 'components/common/ContainerGrid';
 import ExpandMoreIconButton from 'components/common/ExpandMoreIconButton';
 // type
-interface AboutProps {}
+interface AboutProps { }
 
 const ImageWrapper = styled(Box)<BoxProps>(({ theme }) => ({
   position: 'relative',
@@ -97,7 +97,7 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
           <Grid item xs={12} md={6} style={{ padding: 0 }}>
             <ImageWrapper>
               <Image
-                alt="John Doe profile image"
+                alt="Ben Humphries profile image"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center center"
@@ -131,10 +131,11 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
               </Typography>
               <CardContent>
                 <Typography component="p" variant="body1">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dolorum exercitationem voluptate sapiente necessitatibus alias
-                  rerum voluptates accusamus tenetur, eaque natus possimus aut
-                  magni odio saepe eligendi laudantium. Enim, illo quod.
+                  I grew up in Albuquerque, New Mexico and left for college in 2018 to attend Brigham Young University.
+                  I am a senior studying computer science with an emphasis in software engineering. I also will be graduating
+                  with a minor in business management. I have been working as a full stack software engineer for the college of
+                  Life Sciences at BYU since summer of 2021. I have been working on a variety of projects including ones you can see in
+                  my projects section. I am currently looking for full time opportunities starting in May 2023.
                 </Typography>
                 <Collapse
                   in={showMore}
@@ -146,7 +147,7 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
                   timeout="auto"
                   unmountOnExit
                 >
-                  <Typography component="p" variant="body1">
+                  {/* <Typography component="p" variant="body1">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Sed quis, vitae ea repellendus pariatur nihil ad cupiditate
                     minima et quasi laborum. Amet eius, aliquam impedit modi
@@ -155,7 +156,7 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
                     voluptatem dolor est ullam ad eligendi eum, et molestiae.
                     Possimus porro adipisci reiciendis corrupti dignissimos fuga
                     aliquam aperiam quisquam praesentium.
-                  </Typography>
+                  </Typography> */}
                 </Collapse>
               </CardContent>
               <CustomCardActions disableSpacing>

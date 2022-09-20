@@ -24,15 +24,15 @@ const lightTheme = createTheme({
       main: '#FFFFFF',
       light: '#FFFFFF',
       dark: '#B2B2B2',
-      contrastText: '#FF6347',
+      contrastText: '#2058ab',
     },
     background: {
-      default: '#FF6347',
+      default: '#93bdc9',
       paper: '#fff',
     },
     text: {
-      primary: '#ffffff',
-      secondary: '#383838',
+      primary: '#2e3030',
+      secondary: '#2e3030',
       disabled: '#777777',
     },
   },
@@ -40,7 +40,7 @@ const lightTheme = createTheme({
     MuiCard: {
       styleOverrides: {
         root: {
-          color: '#383838',
+          color: '#2e3030',
         },
       },
     },

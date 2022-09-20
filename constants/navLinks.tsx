@@ -35,15 +35,15 @@ const navLinks: NavLink[] = [
     order: 2,
     sidebarVisible: false,
   },
-  {
-    buttonProps: { color: 'info' },
-    href: '/blog',
-    Icon: <TextSnippetIcon color="inherit" fontSize="inherit" />,
-    label: 'Blog',
-    order: 3,
-    sidebarOrder: 2,
-    sidebarVisible: true,
-  },
+  // {
+  //   buttonProps: { color: 'info' },
+  //   href: '/blog',
+  //   Icon: <TextSnippetIcon color="inherit" fontSize="inherit" />,
+  //   label: 'Blog',
+  //   order: 3,
+  //   sidebarOrder: 2,
+  //   sidebarVisible: true,
+  // },
   {
     buttonProps: { color: 'info', variant: 'contained' },
     href: '/projects',
@@ -53,15 +53,15 @@ const navLinks: NavLink[] = [
     sidebarOrder: 1,
     sidebarVisible: true,
   },
-  {
-    buttonProps: { color: 'info', variant: 'outlined' },
-    href: '/hire-me',
-    Icon: <WorkIcon color="inherit" fontSize="inherit" />,
-    label: 'Hire Me',
-    order: 4,
-    sidebarOrder: 3,
-    sidebarVisible: true,
-  },
+  // {
+  //   buttonProps: { color: 'info', variant: 'outlined' },
+  //   href: '/hire-me',
+  //   Icon: <WorkIcon color="inherit" fontSize="inherit" />,
+  //   label: 'Hire Me',
+  //   order: 4,
+  //   sidebarOrder: 3,
+  //   sidebarVisible: true,
+  // },
 ];
 
 export default navLinks;

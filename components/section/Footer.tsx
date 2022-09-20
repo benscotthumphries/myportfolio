@@ -19,7 +19,7 @@ import TwitterIconLink from 'components/common/TwitterIconLink';
 // custom context
 import ConstantsContext from 'context/constantsContext';
 // type
-interface FooterProps {}
+interface FooterProps { }
 
 const CustomCard = styled(Card)<CardProps>(({ theme }) => ({
   margin: '1rem',
@@ -71,9 +71,9 @@ const Footer: React.FunctionComponent<FooterProps> = (props) => {
           <TwitterIconLink />
         </CardContent>
       </CustomCard>
-      <Typography component="p" variant="body1" textAlign="center">
+      {/* <Typography component="p" variant="body1" textAlign="center">
         Made with ❤️ at <TextLink href="https://mopeim.com">mopeim</TextLink>
-      </Typography>
+      </Typography> */}
     </>
   );
 };
