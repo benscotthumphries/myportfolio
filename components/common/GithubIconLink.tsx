@@ -1,12 +1,12 @@
 // react
 import * as React from 'react';
 // @mui icon
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GithubIcon from '@mui/icons-material/GitHub';
 // custom component
 import IconButtonLink from 'components/common/IconButtonLink';
 // type
 import { IconButtonProps } from '@mui/material';
-interface LinkedInIconLinkProps extends IconButtonProps {
+interface GithubIconLinkProps extends IconButtonProps {
   anchorStyles?: React.CSSProperties;
   href?: string;
   iconColor?:
@@ -22,22 +22,22 @@ interface LinkedInIconLinkProps extends IconButtonProps {
   iconSize?: 'inherit' | 'large' | 'medium' | 'small' | undefined;
 }
 
-const LinkedInIconLink: React.FunctionComponent<LinkedInIconLinkProps> = (
+const GithubIconLink: React.FunctionComponent<GithubIconLinkProps> = (
   props
 ) => {
   const {
     anchorStyles,
-    href = 'https://www.linkedin.com/in/benjamin-humphries/',
+    href = 'https://github.com/benscotthumphries',
     iconColor = 'inherit',
     iconSize = 'inherit',
     ...otherProps
   } = props;
 
   return (
-    <IconButtonLink aria-label="LinkedIn button" href={href} {...otherProps}>
-      <LinkedInIcon color={iconColor} fontSize={iconSize} />
+    <IconButtonLink aria-label="Github button" href={href} {...otherProps}>
+      <GithubIcon color={iconColor} fontSize={iconSize} />
     </IconButtonLink>
   );
 };
 
-export default LinkedInIconLink;
+export default GithubIconLink;

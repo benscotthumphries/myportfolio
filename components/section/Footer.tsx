@@ -13,9 +13,9 @@ import {
 } from '@mui/material';
 // custom component
 import TextLink from 'components/common/TextLink';
-import FacebookIconLink from 'components/common/FacebookIconLink';
-import InstagramIconLink from 'components/common/InstagramIconLink';
-import TwitterIconLink from 'components/common/TwitterIconLink';
+import LinkedInIconLink from 'components/common/FacebookIconLink';
+import GithubIconLink from 'components/common/GithubIconLink';
+// import TwitterIconLink from 'components/common/TwitterIconLink';
 // custom context
 import ConstantsContext from 'context/constantsContext';
 // type
@@ -66,9 +66,9 @@ const Footer: React.FunctionComponent<FooterProps> = (props) => {
           ))}
         </CustomCardContent>
         <CardContent sx={{ display: 'flex', justifyContent: 'center' }}>
-          <FacebookIconLink />
-          <InstagramIconLink />
-          <TwitterIconLink />
+          <LinkedInIconLink />
+          <GithubIconLink />
+          {/* <TwitterIconLink /> */}
         </CardContent>
       </CustomCard>
       {/* <Typography component="p" variant="body1" textAlign="center">

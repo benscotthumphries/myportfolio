@@ -18,7 +18,7 @@ import CustomButton from 'components/common/CustomButton';
 // validation
 import { ContactFormSchema } from 'models/contactFormModel';
 // type
-interface ContactFormProps {}
+interface ContactFormProps { }
 
 const CustomCard = styled(Card)<CardProps>(({ theme }) => ({
   maxWidth: '32rem',

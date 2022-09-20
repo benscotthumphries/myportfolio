@@ -20,9 +20,8 @@ import {
   useTheme,
 } from '@mui/material';
 // custom component
-import FacebookIconLink from 'components/common/FacebookIconLink';
-import InstagramIconLink from 'components/common/InstagramIconLink';
-import TwitterIconLink from 'components/common/TwitterIconLink';
+import LinkedInIconLink from 'components/common/FacebookIconLink';
+import GitHubIconLink from 'components/common/GithubIconLink';
 import ContainerGrid from 'components/common/ContainerGrid';
 import ExpandMoreIconButton from 'components/common/ExpandMoreIconButton';
 // type
@@ -170,9 +169,10 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
                   />
                 )}
                 <div>
-                  <FacebookIconLink />
-                  <InstagramIconLink />
-                  <TwitterIconLink />
+                  {/* <LinkedInIconLink /> */}
+                  <LinkedInIconLink />
+                  <GitHubIconLink />
+                  {/* <TwitterIconLink /> */}
                 </div>
               </CustomCardActions>
             </Card>
